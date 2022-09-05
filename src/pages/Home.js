@@ -9,6 +9,9 @@ export  default function Home(){
         <View>
             <Text>Meus Filems</Text>
             <Text>Olá Renan, Boa noite!</Text>
+            <TouchableOpacity>
+                <Text>Criar</Text>
+            </TouchableOpacity>
             
         </View>
     );
@@ -17,5 +20,3 @@ export  default function Home(){
 const styles = StyleSheet.create({
     container
 })
-
-//<TouchableOpacity><Text>Criar</Text></TouchableOpacity>
